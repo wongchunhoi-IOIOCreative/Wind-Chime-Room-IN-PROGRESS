@@ -1,10 +1,10 @@
 # Wind Chime Room demo
 
-![2020-06-08](https://raw.githubusercontent.com/wongchunhoi-IOIOCreative/Wind-Chime-Room/master/P8-in-progress-2.png "screenshot")
+![2020-06-08](https://github.com/wongchunhoi-IOIOCreative/Wind-Chime-Room-IN-PROGRESS/blob/master/screenshot/Screen%20Shot%202020-06-08%20at%206.45.59%20PM.png "screenshot")
 
 
 ### Wind Chime mechanism Preview:
-![Chimes Preview](chimeDemo.gif)
+![Chimes Preview](https://github.com/wongchunhoi-IOIOCreative/Wind-Chime-Room-IN-PROGRESS/blob/master/screenshot/chimeDemo1.gif)
 
 Chain models source: https://spennerino.itch.io/unitychaintutorial
 
