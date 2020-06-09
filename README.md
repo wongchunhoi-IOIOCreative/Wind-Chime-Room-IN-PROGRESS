@@ -1,5 +1,8 @@
 # Wind Chime Room demo
 
+![2020-06-09](https://github.com/wongchunhoi-IOIOCreative/Wind-Chime-Room-IN-PROGRESS/blob/master/screenshot/20200609.png "screenshot")
+
+
 ![2020-06-08](https://github.com/wongchunhoi-IOIOCreative/Wind-Chime-Room-IN-PROGRESS/blob/master/screenshot/Screen%20Shot%202020-06-08%20at%206.45.59%20PM.png "screenshot")
 
 

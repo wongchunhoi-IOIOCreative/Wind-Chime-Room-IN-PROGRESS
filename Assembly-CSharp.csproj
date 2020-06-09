@@ -69,7 +69,10 @@
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\ModernOffice_Interior\Prefabs\Structure\Doors_Windows\animation\Window open L\WindowLeftController.cs" />
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\ModernOffice_Interior\Prefabs\Structure\Doors_Windows\animation\window open R\WindowRightController.cs" />
     <Compile Include="Assets\Audio\WindChimePlayB.cs" />
+    <Compile Include="Assets\Prefab\Wind Source\randomTransformRotation.cs" />
     <Compile Include="Assets\Scripts\AutoConnectJoint.cs" />
+    <Compile Include="Assets\Scripts\PlayerControllerRigidBody.cs" />
+    <Compile Include="Assets\Scripts\PlayerControllerTransform.cs" />
     <Compile Include="Assets\Scripts\RigidbodyParticleWind.cs" />
     <Compile Include="Assets\Scripts\WindRigidbody.cs" />
     <Compile Include="Assets\Scripts\flutuateWindRotation.cs" />

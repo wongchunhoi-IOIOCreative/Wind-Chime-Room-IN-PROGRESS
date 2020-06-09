@@ -39,6 +39,7 @@ public class WindRigidbody : MonoBehaviour
 
 							hitColliders[i].GetComponent<Rigidbody>().AddForce(windPosition.transform.forward * windStrength, ForceMode.Acceleration);
                             Debug.DrawLine (windPosition.transform.position, hit.point, Color.cyan);
+							
 
 							//there was '32' instead of windStrength / / just a note for myself.
 						}
