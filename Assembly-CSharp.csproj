@@ -71,6 +71,7 @@
     <Compile Include="Assets\Audio\WindChimePlayB.cs" />
     <Compile Include="Assets\Prefab\Wind Source\randomTransformRotation.cs" />
     <Compile Include="Assets\Scripts\AutoConnectJoint.cs" />
+    <Compile Include="Assets\Scripts\FMODComps\RelativeVelCollision.cs" />
     <Compile Include="Assets\Scripts\PlayerControllerRigidBody.cs" />
     <Compile Include="Assets\Scripts\PlayerControllerTransform.cs" />
     <Compile Include="Assets\Scripts\RigidbodyParticleWind.cs" />
@@ -621,6 +622,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{A6847824-3B40-2A21-1E39-BA2C1527BAA5}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{65244FEE-2CFF-6865-A28D-AD7E20F1CF63}</Project>
       <Name>Unity.Timeline.Editor</Name>

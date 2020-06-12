@@ -632,9 +632,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{A6847824-3B40-2A21-1E39-BA2C1527BAA5}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{F4CF39ED-05B2-0234-FBEF-A5BDF14E6D91}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{A31D24B1-F8FF-EF7E-E8D8-EC9D0AB50B8C}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{B1B59566-BBA3-B69D-0778-7A6B98E2CAAE}</Project>

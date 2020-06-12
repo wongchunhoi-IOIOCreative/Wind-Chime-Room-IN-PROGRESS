@@ -1,5 +1,10 @@
 # Wind Chime Room demo
-### 2020-06-09
+### 2020-06-12
+## Import an FMOD project for audio events
+- please find the zip file in the asset
+-  Audio Listener now embedded on the player character
+
+
 ![2020-06-09](https://github.com/wongchunhoi-IOIOCreative/Wind-Chime-Room-IN-PROGRESS/blob/master/screenshot/20200609.png "screenshot")
 - Add a character ,  Please use wasd or arrow key to control the character
 
