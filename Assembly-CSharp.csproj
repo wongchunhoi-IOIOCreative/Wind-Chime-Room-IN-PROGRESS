@@ -71,7 +71,10 @@
     <Compile Include="Assets\Audio\WindChimePlayB.cs" />
     <Compile Include="Assets\Prefab\Wind Source\randomTransformRotation.cs" />
     <Compile Include="Assets\Scripts\AutoConnectJoint.cs" />
+    <Compile Include="Assets\Scripts\FMODComps\FMODParameterVelocityToVolume.cs" />
+    <Compile Include="Assets\Scripts\FMODComps\ParametersSetByName.cs" />
     <Compile Include="Assets\Scripts\FMODComps\RelativeVelCollision.cs" />
+    <Compile Include="Assets\Scripts\FMODComps\WindChimeFMODHelper.cs" />
     <Compile Include="Assets\Scripts\PlayerControllerRigidBody.cs" />
     <Compile Include="Assets\Scripts\PlayerControllerTransform.cs" />
     <Compile Include="Assets\Scripts\RigidbodyParticleWind.cs" />

@@ -1738,6 +1738,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: 0.33853334
       objectReference: {fileID: 0}
+    - target: {fileID: 8211545535288688512, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 8211545535288688515, guid: acaf7ca6dee0e41f2b27049a008766b2,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -1752,6 +1757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WindChime by character joint rigidbody v1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712934, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
         type: 3}
@@ -2513,7 +2523,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763266431}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -2743,25 +2753,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 508555320}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &825740115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825740113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Emitters:
-  - Target: {fileID: 825740120}
-    Params:
-    - Name: relativeVelocity
-      Value: 0.604
-  TriggerEvent: 0
 --- !u!114 &825740120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2769,13 +2760,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 825740113}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/WindChimeTone C
+  Event: event:/WindChimeTone F
   PlayEvent: 7
   StopEvent: 0
   AllowFadeout: 1
@@ -2785,24 +2776,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!114 &825740122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825740113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83e6ac23e8c0448439db87993506cf23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetParam: {fileID: 825740115}
-  targetEmitter:
-    Target: {fileID: 825740120}
-    Params:
-    - Name: 
-      Value: 0
 --- !u!4 &830576100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1262052637525062903, guid: 154a6191f2c2c41eea45261afb1154fd,
@@ -3087,6 +3060,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WindChime by hugo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408651685758129243, guid: ac3fd5ff7685c4bcc841e2956e967a00,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4408651685758129253, guid: ac3fd5ff7685c4bcc841e2956e967a00,
         type: 3}
@@ -4699,6 +4677,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 508555320}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1281932866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281932865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e6ac23e8c0448439db87993506cf23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetParam: {fileID: 1281932867}
+  relVelName: relativeVelocity
 --- !u!114 &1281932867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4712,7 +4704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: 
+  Event: event:/WindChimeTone Random
   PlayEvent: 7
   StopEvent: 0
   AllowFadeout: 1
@@ -4720,8 +4712,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1282645016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5048,7 +5040,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335654146}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -5063,7 +5055,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 15
 --- !u!1 &1353356848
 GameObject:
   m_ObjectHideFlags: 0
@@ -5901,6 +5893,416 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b13542e2dcb4200b54b2aac08d6feb, type: 3}
+--- !u!1001 &1727820520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4596530811168043864, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.52764815
+      objectReference: {fileID: 0}
+    - target: {fileID: 5069828976837021725, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.31249222
+      objectReference: {fileID: 0}
+    - target: {fileID: 5069828976837021725, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 2.321415
+      objectReference: {fileID: 0}
+    - target: {fileID: 5069828976837021725, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.26514548
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545534666895465, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.12547016
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545534666895465, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.50990564
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545534666895465, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.3030226
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545534799465978, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.05918414
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545534799465978, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.15766217
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545534799465978, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.38824788
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535191755058, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.31249222
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535191755058, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.09289771
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535191755058, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.33853334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535288688515, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.3858808
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535288688515, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -1.0399384
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712934, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_Name
+      value: WindChime by character joint rigidbody v1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712934, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211545535458712935, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119020199869412839, guid: acaf7ca6dee0e41f2b27049a008766b2,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 1.0490483
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: acaf7ca6dee0e41f2b27049a008766b2, type: 3}
+--- !u!1 &1727820521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3472888168825408296, guid: acaf7ca6dee0e41f2b27049a008766b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1727820520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1727820522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8211545534799465972, guid: acaf7ca6dee0e41f2b27049a008766b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1727820520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1727820523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8211545534666895467, guid: acaf7ca6dee0e41f2b27049a008766b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1727820520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1727820524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8211545535191755052, guid: acaf7ca6dee0e41f2b27049a008766b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1727820520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1727820525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8211545535288688574, guid: acaf7ca6dee0e41f2b27049a008766b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1727820520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1727820526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727820521}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6d59be802624ab487b6cd513d7348c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WindChimeEvtName: event:/WindChimeTone C
+  relativeVelParam: relativeVelocity
+--- !u!114 &1727820527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727820521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1727820528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727820521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e6ac23e8c0448439db87993506cf23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetParam: {fileID: 1727820527}
+  relVelName: relativeVelocity
+--- !u!114 &1727820529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727820522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e6ac23e8c0448439db87993506cf23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetParam: {fileID: 0}
+  relVelName: 
+--- !u!114 &1727820530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727820522}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/WindChimeTone C
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params:
+  - Name: relativeVelocity
+    Value: 0.741
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1727820531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727820522}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 1727820530}
+    Params:
+    - Name: relativeVelocity
+      Value: 0.604
+  TriggerEvent: 0
+--- !u!114 &1727820532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727820523}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/WindChimeTone E
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1727820533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727820524}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/WindChimeTone D
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1727820534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727820525}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/WindChimeTone C
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: relativeVelocity
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1727820535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727820525}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6f9b9adea3c74e3797ea48101e847e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  relativeVeolocityParameterName: relativeVelocity
+  relativeVeolocityParameter: 0
+--- !u!114 &1727820536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727820525}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 1727820534}
+    Params: []
+  TriggerEvent: 0
 --- !u!1 &1730588676 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8211545534666895467, guid: acaf7ca6dee0e41f2b27049a008766b2,
@@ -6621,6 +7023,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 508555320}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1838714672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838714669}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6f9b9adea3c74e3797ea48101e847e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  relativeVeolocityParameterName: relativeVelocity
+  relativeVeolocityParameter: 0
 --- !u!114 &1838714676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6628,22 +7044,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838714669}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/WindChimeTone C
+  Event: event:/WindChimeToneC
   PlayEvent: 7
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
-  Preload: 0
-  Params: []
+  Preload: 1
+  Params:
+  - Name: relativeVelocity
+    Value: 0.8
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 200
+  OverrideMaxDistance: 20
 --- !u!4 &1851940722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7474492090458891267, guid: f3b13542e2dcb4200b54b2aac08d6feb,

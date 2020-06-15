@@ -1,5 +1,8 @@
 # Wind Chime Room demo
-### 2020-06-12
+### 2020-06-15
+Create A prefab of windchime that mapped the Collision Relative Velocity to the Sound trigger volume
+![2020-06-15](https://github.com/wongchunhoi-IOIOCreative/Wind-Chime-Room-IN-PROGRESS/blob/master/screenshot/2020-06-15.png "screenshot")
+
 ## Import an FMOD project for audio events
 - please find the zip file in the asset
 -  Audio Listener now embedded on the player character

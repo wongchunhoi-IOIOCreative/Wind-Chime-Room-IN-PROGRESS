@@ -6,18 +6,17 @@ using FMODUnity;
 public class RelativeVelCollision : MonoBehaviour
 {
     [SerializeField]
-    private StudioParameterTrigger targetParam;
-    public EmitterRef targetEmitter;
+    private StudioEventEmitter targetParam;
+    public string relVelName;
 
     public void SetAndTriggerParam(float paramValue)
     {
-        //targetParam. = paramValue;
-        //targetParam.
-        //targetParam.TriggerParameters();
+        targetParam.SetParameter(relVelName, paramValue);
+        targetParam.Play();
     }
 
     public void OnCollisionEnter(Collision collision)
     {
-        SetAndTriggerParam(collision.relativeVelocity.magnitude);
+        SetAndTriggerParam(collision.relativeVelocity.magnitude/30) ;
     }
 }

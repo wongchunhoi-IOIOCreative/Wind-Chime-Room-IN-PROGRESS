@@ -1,5 +1,46 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8714179383243697646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278264610000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8422462435070629755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RoomTone
+  m_EditorClassIdentifier: 
+  Path: event:/RoomTone
+  guid: 9df1350d955d4548a1d9a485901f27ec
+  Banks:
+  - {fileID: 6776631032074043814}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8071
 --- !u!114 &-7840841910081451091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,6 +56,41 @@ MonoBehaviour:
   Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
   SubDir: 
   lastModified: 637275803700000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7814556222154106150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeTone Random/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-7801147886916168074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278304870000000
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -53,6 +129,23 @@ MonoBehaviour:
   lastModified: 637275830210000000
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-6444991198523781073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeTone D/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 1
 --- !u!114 &-6328908665217754385
 MonoBehaviour:
@@ -69,6 +162,41 @@ MonoBehaviour:
   Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
   SubDir: 
   lastModified: 637275700350000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6002208075831246667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeToneC/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-5636876039102313553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278264590000000
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -108,6 +236,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2987783524318299781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278202690000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-2694785589845354089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,13 +287,14 @@ MonoBehaviour:
   Path: event:/WindChimeTone E
   guid: 9c5cca93bc7cfb479d21c7479af51929
   Banks:
-  - {fileID: -6545932714224623844}
+  - {fileID: 6776631032074043814}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 3702704919289580942}
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 15
   Length: 1500
 --- !u!114 &-2008394626832038870
 MonoBehaviour:
@@ -167,7 +314,7 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
---- !u!114 &11400000
+--- !u!114 &-1651419882748102952
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,26 +323,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
   m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 5742054062132286038}
-  - {fileID: -6545932714224623844}
-  EditorEvents:
-  - {fileID: 4748591757548838365}
-  - {fileID: 5196693307328088210}
-  - {fileID: 8356572992128800643}
-  - {fileID: -2631176787419025992}
-  - {fileID: 2350499140236747488}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: -6545932714224623844}
-  StringsBanks:
-  - {fileID: 5742054062132286038}
-  stringsBankWriteTime: 637275830210000000
-  cacheVersion: 3
---- !u!114 &1175601978605354768
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278213030000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-340777346588199740
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -212,6 +349,181 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 5742054062132286038}
+  - {fileID: 6776631032074043814}
+  EditorEvents:
+  - {fileID: 4748591757548838365}
+  - {fileID: 5196693307328088210}
+  - {fileID: 8356572992128800643}
+  - {fileID: -2631176787419025992}
+  - {fileID: 2126941303823953846}
+  - {fileID: -8422462435070629755}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 6776631032074043814}
+  StringsBanks:
+  - {fileID: 5742054062132286038}
+  stringsBankWriteTime: 637278347580000000
+  cacheVersion: 3
+--- !u!114 &593735767914529161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeToneC/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &914263245379424652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeToneC/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1175601978605354768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeTone C/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1764594475170642332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278303740000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2126941303823953846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WindChimeToneC
+  m_EditorClassIdentifier: 
+  Path: event:/WindChimeToneC
+  guid: cb1e000ce906434792fdec9072c3317e
+  Banks:
+  - {fileID: 6776631032074043814}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3487442817400743397}
+  MinDistance: 1
+  MaxDistance: 15
+  Length: 1500
+--- !u!114 &2191752209293571703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278299680000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2199613289719250383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeToneC/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2211378213637635980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278252750000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &2290777407388177083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,16 +556,100 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/WindChimeTone C
   guid: cb1e000ce906434792fdec9072c3317e
-  Banks:
-  - {fileID: -6545932714224623844}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 1175601978605354768}
+  - {fileID: -340777346588199740}
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 15
   Length: 1500
+--- !u!114 &3054530475416048756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeTone C/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3166129050766949979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeToneC/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3487442817400743397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeToneC/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &3699624591035577365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeTone C/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3702704919289580942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeTone E/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &3711483051363364493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,6 +668,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4146693596059291087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278266960000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &4748591757548838365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,14 +701,32 @@ MonoBehaviour:
   Path: event:/WindChimeTone Random
   guid: 8743f5fd4d4195458f12e8d148b9761f
   Banks:
-  - {fileID: -6545932714224623844}
+  - {fileID: 6776631032074043814}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -7814556222154106150}
   MinDistance: 1
   MaxDistance: 20
   Length: 2500
+--- !u!114 &5076723871161207850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeTone F/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &5196693307328088210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,13 +742,14 @@ MonoBehaviour:
   Path: event:/WindChimeTone D
   guid: 77c9578e2a531640b6ee4f53efba5627
   Banks:
-  - {fileID: -6545932714224623844}
+  - {fileID: 6776631032074043814}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -6444991198523781073}
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 15
   Length: 2500
 --- !u!114 &5233225439215689389
 MonoBehaviour:
@@ -354,6 +787,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5736913350458343357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeToneC/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &5742054062132286038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,11 +818,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.strings.bank
   SubDir: 
-  lastModified: 637275830210000000
+  lastModified: 637278347580000000
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 870
+    Value: 934
   Exists: 1
 --- !u!114 &5744522057848517140
 MonoBehaviour:
@@ -389,6 +839,24 @@ MonoBehaviour:
   Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
   SubDir: 
   lastModified: 637275810850000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5819670572794440046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278295150000000
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -427,6 +895,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6776631032074043814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278347580000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6943905824303144593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeToneC/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &7429652691289703362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,14 +963,32 @@ MonoBehaviour:
   Path: event:/WindChimeTone F
   guid: 8b90005332f76540af98325376f8e007
   Banks:
-  - {fileID: -6545932714224623844}
+  - {fileID: 6776631032074043814}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 5076723871161207850}
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 15
   Length: 1000
+--- !u!114 &8447261257256735106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindChimeToneC/relativeVelocity
+  m_EditorClassIdentifier: 
+  Name: relativeVelocity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &8714780981758773361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,6 +1004,24 @@ MonoBehaviour:
   Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
   SubDir: 
   lastModified: 637275812990000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8876812571350931655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../FMOD Audio project/Wind Chime Room 1/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637278304990000000
   LoadResult: 0
   FileSizes: []
   Exists: 0
