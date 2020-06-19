@@ -4,14 +4,14 @@ public class WindRigidbody : MonoBehaviour
 {
     public float WindStrengthMin = 0;
     public float WindStrengthMax = 5;
-    private float windStrength;
+    public float windStrength;
     private float radius = 1234567;
     [SerializeField]
     private Transform windPosition;
     [SerializeField]
     private Transform windRotation;
 
-	private void Update()
+	 void Update()
 	{
 		if (windPosition != null && windRotation != null)
 		{

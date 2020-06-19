@@ -1,4 +1,11 @@
 # Wind Chime Room demo
+### 2020-06-19
+- Room L2 is constructred
+- new audio source (radio) 
+- embedded FMOD event on Animation event in animator scripted game object
+![2020-06-19](https://github.com/wongchunhoi-IOIOCreative/Wind-Chime-Room-IN-PROGRESS/blob/master/screenshot/screenshot20200619.png "screenshot")
+![2020-06-19](https://github.com/wongchunhoi-IOIOCreative/Wind-Chime-Room-IN-PROGRESS/blob/master/screenshot/screenshot202006192.png "screenshot")
+
 ### 2020-06-15
 Create A prefab of windchime that mapped the Collision Relative Velocity to the Sound trigger volume
 ![2020-06-15](https://github.com/wongchunhoi-IOIOCreative/Wind-Chime-Room-IN-PROGRESS/blob/master/screenshot/2020-06-15.png "screenshot")

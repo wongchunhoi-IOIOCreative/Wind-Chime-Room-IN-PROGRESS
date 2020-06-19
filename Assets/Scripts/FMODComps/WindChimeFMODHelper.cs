@@ -15,8 +15,11 @@ public class WindChimeFMODHelper : MonoBehaviour
     //    over it's lifetime. Including starting, stopping and changing 
     //    parameters.
     //--------------------------------------------------------------------
-    FMOD.Studio.EventInstance windChimeState; private float relVel;
-    FMOD.Studio.PARAMETER_ID relVelId; private void Awake()
+    FMOD.Studio.EventInstance windChimeState;
+    private float relVel;
+    FMOD.Studio.PARAMETER_ID relVelId;
+
+    private void Awake()
     {
         windChimeRB = GetComponent<Rigidbody>();
     }

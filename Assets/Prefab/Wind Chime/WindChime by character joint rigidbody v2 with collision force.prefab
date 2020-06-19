@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 7806100501455280664, guid: 28b9228f3f95f4d1cb3ec3a1181269e6, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 8255344168471161414}
   - component: {fileID: 6641767389991348200}
   - component: {fileID: 6060573139315725135}
+  - component: {fileID: 5944241283265292421}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -390,7 +391,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: -870952796764628979, guid: 8565b6e0b8469437b978c06f79a49144, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -486,6 +487,20 @@ CharacterJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &5944241283265292421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4609521011254416016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6d59be802624ab487b6cd513d7348c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WindChimeEvtName: event:/WindChimeWoodHit
+  relativeVelParam: relativeVelocity
 --- !u!1 &6585241830633197444
 GameObject:
   m_ObjectHideFlags: 0
